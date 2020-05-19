@@ -8,7 +8,7 @@ jobs:
     executor: ci-executor
     steps:
       - checkout
-custom-build
+
 
       - run:
           name: build dependencies
@@ -22,4 +22,4 @@ custom-build
           name: notify build is finished
           command: echo "The build is finished!"
 
-master
+
